@@ -3,8 +3,6 @@ from os import path
 
 from setuptools import setup, find_packages
 
-import FileMonitor
-
 here = path.abspath(path.dirname(__file__))
 
 with open(path.join(here, 'README.md'), encoding='utf-8') as f:
@@ -13,7 +11,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 setup(
     name='FileMonitor',
 
-    version=FileMonitor.__version__,
+    version=0.1,
 
     description='A File Monitor',
 
@@ -27,6 +25,16 @@ setup(
     license='Apache License',
 
     keywords='File Monitor',
+    classifiers=[
+        'Development Status :: 3 - Alpha',
+
+        'Intended Audience :: Developers',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+
+        'License :: OSI Approved :: MIT License',
+
+        'Programming Language :: Python :: 3.5',
+    ],
 
     # You can just specify the packages manually here if your project is
     # simple. Or you can use find_packages().
