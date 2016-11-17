@@ -59,7 +59,6 @@ def sl(src_path):
 
 [py2]: https://img.shields.io/badge/python-2.7-ff69b4.svg "python2"
 [py3]: https://img.shields.io/badge/python-3.5-red.svg "python3"
-[english_version]: https://github.com/littlecodersh/danmu/blob/master/README_EN.md
 [document]: http://danmu.readthedocs.io/zh_CN/latest/
 [screenshot]: http://7xrip4.com1.z0.glb.clouddn.com/danmu/demo.png?imageView/2/w/400/ "screenshot"
 [issue#1]: https://github.com/Ldream/FileMonitor/issues/1
